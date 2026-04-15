@@ -15,8 +15,12 @@
 
 ```bash
 pip install -r requirements.txt
-# 如果提示找不到 pip，请尝试使用：
-# pip3 install -r requirements.txt
+```
+
+如果提示找不到 pip，请尝试使用：
+
+```bash
+pip install -r requirements.txt
 ```
 
 #### 2. 准备文件目录
@@ -42,8 +46,12 @@ pip install -r requirements.txt
 
 ```bash
 python add_watermark.py
-# 如果提示找不到 python，请尝试使用：
-# python3 add_watermark.py
+```
+
+如果提示找不到 python，请尝试使用：
+
+```bash
+python3 add_watermark.py
 ```
 
 处理完成的图片会自动保存在自动创建的 `get_results_here/` 文件夹中。
