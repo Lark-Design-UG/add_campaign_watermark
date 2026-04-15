@@ -33,6 +33,7 @@ pip install -r requirements.txt
 
 *   `MARGIN_RATIO`：控制 Logo 距离边缘的距离（基于原图较长边的比例）。
 *   `LOGO_SCALE_RATIO`：分别控制四个角 Logo 的相对大小（基于原图较长边的比例）。
+*   `OUTPUT_FORMAT`：选择导出图片的格式，可选 `'jpg'` 或 `'png'`（默认为 `'jpg'`）。
 
 #### 4. 运行脚本
 在终端或命令行中，进入脚本所在的目录，运行：
@@ -74,6 +75,7 @@ You can open `add_watermark.py` with a text editor and adjust the scaling and ma
 
 *   `MARGIN_RATIO`: Controls the distance of the logo from the edge (based on the proportion of the image's longest side).
 *   `LOGO_SCALE_RATIO`: Separately controls the relative size of the logos in the four corners (based on the proportion of the image's longest side).
+*   `OUTPUT_FORMAT`: Choose the export format for the images, either `'jpg'` or `'png'` (defaults to `'jpg'`).
 
 #### 4. Run the Script
 Open your terminal or command prompt, navigate to the script's directory, and run:

@@ -16,6 +16,9 @@ except ImportError:
     print("警告: 未检测到 pillow-heif 库，如果需要处理苹果 HEIC 照片，请先运行: pip install pillow-heif")
 
 # ================= 全局配置区 =================
+# 导出图片格式：可选 'jpg' 或 'png'，默认 'jpg'
+OUTPUT_FORMAT = 'jpg'
+
 # 边距比例：决定了 Logo 距离图片边缘的距离。
 # 例如 0.03 表示距离边缘为原图较长边的 3%
 MARGIN_RATIO = 0.04
@@ -161,11 +164,9 @@ def main():
         if filename.lower().endswith(supported_formats):
             original_path = os.path.join(image_dir, filename)
             
-            # 如果原图是 HEIC/HEIF 格式，为了分享和各大平台的广泛兼容性，生成的图片强制保存为 JPG
-            output_filename = filename
-            if filename.lower().endswith(('.heic', '.heif')):
-                base_name = os.path.splitext(filename)[0]
-                output_filename = f"{base_name}.jpg"
+            # 使用全局配置的输出格式
+            base_name = os.path.splitext(filename)[0]
+            output_filename = f"{base_name}.{OUTPUT_FORMAT.lower()}"
                 
             output_path = os.path.join(output_dir, output_filename)
             
