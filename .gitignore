@@ -1,0 +1,8 @@
+put_your_images_here/*
+!put_your_images_here/.gitkeep
+get_results_here/*
+!get_results_here/.gitkeep
+
+# OS generated files
+.DS_Store
+**/.DS_Store
