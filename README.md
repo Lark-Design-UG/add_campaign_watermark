@@ -11,14 +11,10 @@
 ### 第一次使用指南
 
 #### 1. 环境准备
-确保你的电脑上安装了 Python 3。然后安装必要的依赖库：
+确保你的电脑上安装了 Python 3。然后通过 `requirements.txt` 安装必要的依赖库：
 
 ```bash
-# 安装 Pillow 库（用于图像处理）
-pip install Pillow
-
-# （可选）如果你需要处理苹果的 HEIC/HEIF 照片，请安装 pillow-heif
-pip install pillow-heif
+pip install -r requirements.txt
 ```
 
 #### 2. 准备文件目录
@@ -56,14 +52,10 @@ This is a Python script for batch adding watermarks/logos to images. It automati
 ### First Time Setup & Usage
 
 #### 1. Environment Setup
-Make sure Python 3 is installed on your computer. Then install the required dependencies:
+Make sure Python 3 is installed on your computer. Then install the required dependencies via `requirements.txt`:
 
 ```bash
-# Install Pillow (for image processing)
-pip install Pillow
-
-# (Optional) If you need to process Apple's HEIC/HEIF photos, install pillow-heif
-pip install pillow-heif
+pip install -r requirements.txt
 ```
 
 #### 2. Prepare Directory Structure
