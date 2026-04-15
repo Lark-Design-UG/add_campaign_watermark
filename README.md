@@ -40,6 +40,8 @@ pip install -r requirements.txt
 
 ```bash
 python add_watermark.py
+# 如果提示找不到 python，请尝试使用：
+# python3 add_watermark.py
 ```
 
 处理完成的图片会自动保存在自动创建的 `get_results_here/` 文件夹中。
@@ -82,6 +84,8 @@ Open your terminal or command prompt, navigate to the script's directory, and ru
 
 ```bash
 python add_watermark.py
+# If 'python' is not found, try using:
+# python3 add_watermark.py
 ```
 
 The processed images will be automatically saved in the `get_results_here/` folder, which will be created automatically if it doesn't exist.
