@@ -20,7 +20,7 @@ pip install -r requirements.txt
 如果提示找不到 pip，请尝试使用：
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 #### 2. 准备文件目录
